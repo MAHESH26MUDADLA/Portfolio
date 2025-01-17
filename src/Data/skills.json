@@ -1,0 +1,17 @@
+ 
+
+[
+    {
+      "title": "HTML",
+      "imageSrc": "/assets/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "/../assets/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "../../assets/react.png"
+    }
+
+]
