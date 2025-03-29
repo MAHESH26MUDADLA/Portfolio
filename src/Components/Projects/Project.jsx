@@ -5,17 +5,18 @@ import styles from "./Project.module.css";
 
 const Project = () => {
     const projects = [
-            { title: "Dictionary App", imageSrc:prImage,
+            
+             { title: "Recipe Finder App", imageSrc: prImage,
+                description:"Recipe Finder is a smart application that helps users discover recipes based on available ingredients.", 
+                skills:["HTML","CSS","JavaScript","React JS"],
+                demo:"https://recipe-app-six-blue.vercel.app/",
+                source:"https://vercel.com/mahesh26mudadlas-projects/recipe-app"
+             },
+             { title: "Dictionary App", imageSrc:prImage,
                 description:"The dictionary app is a React.js-based project that allows users to search for and explore word definitions.", 
                 skills:["HTML","CSS","JavaScript","React"],
                 demo:"https://dictionaryapp-eta.vercel.app/",
                 source:"https://github.com/MAHESH26MUDADLA/Dictionaryapi"
-             },
-             { title: "ToDoList", imageSrc: prImage,
-                description:"The TodoList app is a React.js-based project designed to help users organize and manage tasks efficiently.", 
-                skills:["HTML","CSS","JavaScript","React"],
-                demo:"https://todo-list-react-one-alpha.vercel.app/",
-                source:"https://github.com/MAHESH26MUDADLA/TodoListReact"
              },
              { title: "BlogApp", imageSrc: prImage,
                 description:"The Blog app is a React.js project that allows users to read, create, and manage blog posts.", 
