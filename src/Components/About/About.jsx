@@ -6,17 +6,23 @@ import reactImage from "../../assets/react.png";
 import jsImage from "../../assets/javascript.jpg";
 import javaImage from "../../assets/java.jpg";
 import sqlImage from "../../assets/sql.jpg";
+import springImage from "../../assets/sprinimg.jpg";
+import NextJsImg from "../../assets/Nextjs.jpg";
+
 
 import styles from "./ABout.module.css";
 
 const About = () => {
     const skills = [
-        { title: "HTML", imageSrc: htmlImage },
-        { title: "CSS", imageSrc: cssImage },
-        { title: "JavaScript", imageSrc: jsImage },
+
         { title: "React", imageSrc: reactImage },
         { title: "Java", imageSrc: javaImage },
-        { title: "SQL", imageSrc: sqlImage }
+        { title: "Spring Boot", imageSrc: springImage },
+        { title: "SQL", imageSrc: sqlImage },
+        { title: "Next.js", imageSrc: NextJsImg },
+       
+        { title: "JavaScript", imageSrc: jsImage }
+       
       ];
   return (
     <section className={styles.container} id = "skills">
