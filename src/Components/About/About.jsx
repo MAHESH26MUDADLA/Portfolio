@@ -39,13 +39,15 @@ const About = () => {
             <ul className={styles.history}>
                <li className={styles.historyItem}>
                 <div className={styles.historyItemDetails}>
-                    <h3>Web Development Intership, Innovate</h3>
-                    <p>Jan,2024 - Mar,2024</p>
+                    <h3>Full Stack Developer Intern,  Aegion Dynamic Solutions</h3>
+                    <p>Feb-2025 - Present</p>
                     <ul>
                         <li>
-                            Worked on E-commerce Website.
+                        Developed and documented 15+ reusable UI components in Storybook, accelerating UI development and ensuring
+                        consistency.
                         </li>
-                        <li>  simple profile management to enhance the shopping experience.</li>
+                        <li>  Implemented an OAuth-based authentication system (login, registration, session management), enhancing user
+                        security and reducing unauthorized access by 40%.</li>
                     </ul>
                 </div>
                </li>

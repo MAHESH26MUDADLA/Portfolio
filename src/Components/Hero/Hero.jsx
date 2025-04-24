@@ -8,7 +8,7 @@ const Hero = () => {
     <div className={styles.content}>
       <h1 className={styles.title}>Hi, I am Mahesh</h1>
       <p className={styles.description}>
-      I am a passionate Front-End Developer with expertise in HTML, CSS, JavaScript, and ReactJS. Alongside my front-end skills, I have a strong foundation in Java and SQL
+      I am a passionate Full Stack Developer with expertise in front-end technologies like HTML, CSS, JavaScript, and ReactJS, and strong backend skills in Java, SQL, Spring Boot, Hibernate, and Next.js.
       </p>
       <a href="mailto:maheshmudadla26@email.com" className={styles.contactBtn}>
           Contact Me

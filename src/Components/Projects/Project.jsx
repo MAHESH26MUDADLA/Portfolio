@@ -6,11 +6,18 @@ import styles from "./Project.module.css";
 const Project = () => {
     const projects = [
             
-             { title: "Recipe Finder App", imageSrc: prImage,
-                description:"Recipe Finder is a smart application that helps users discover recipes based on available ingredients.", 
-                skills:["HTML","CSS","JavaScript","React JS"],
-                demo:"https://recipe-app-six-blue.vercel.app/",
-                source:"https://vercel.com/mahesh26mudadlas-projects/recipe-app"
+             { title: "URL Shortener", imageSrc: prImage,
+                description:"A web application built with Spring Boot that converts long URLs into short, shareable links.", 
+                skills:["Spring Boot","Java","SQL","React"],
+                demo:"https://github.com/MAHESH26MUDADLA/URLshortener",
+                source:"https://github.com/MAHESH26MUDADLA/URLshortener"
+             },
+             { title: "News App", imageSrc: prImage,
+                description:"Developed using Next.js, this app fetches news articles from a public API and displays them in a clean, responsive layout.", 
+                skills:["HTML",
+                    "React","Next.js"],
+                demo:"https://newsapp-theta-vert.vercel.app/",
+                source:"https://github.com/MAHESH26MUDADLA/newsapp"
              },
              { title: "Dictionary App", imageSrc:prImage,
                 description:"The dictionary app is a React.js-based project that allows users to search for and explore word definitions.", 
@@ -18,13 +25,7 @@ const Project = () => {
                 demo:"https://dictionaryapp-eta.vercel.app/",
                 source:"https://github.com/MAHESH26MUDADLA/Dictionaryapi"
              },
-             { title: "BlogApp", imageSrc: prImage,
-                description:"The Blog app is a React.js project that allows users to read, create, and manage blog posts.", 
-                skills:["HTML","CSS","JavaScript",
-                    "React"],
-                demo:"https://blogapp-gamma-seven.vercel.app/",
-                source:"https://github.com/MAHESH26MUDADLA/Blogapp"
-             },
+             
              
             
           ];
